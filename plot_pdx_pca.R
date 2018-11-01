@@ -1,7 +1,6 @@
-dir <- "~/snp-array-files/pdx_ethnicity_analysis/"
-dir <- "/Volumes/target_nbl_ngs/PPTC-PDX-genomics/snp-array-files/pdx_ethnicity_analysis/"
-
+dir <- "pdx_ethnicity_analysis/"
 setwd(dir)
+
 library(ggplot2)
 
 mds <- read.table(paste(dir, "PCA.plink.eigenvec", sep=""),
