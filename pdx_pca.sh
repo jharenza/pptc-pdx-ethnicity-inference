@@ -3,9 +3,7 @@
 
 plink10="~/plink1.07/plink-1.07-x86_64/plink"      # Directory path for PLINK 1.07
 plink19="~/plink1.9/plink"     # Directory path for PLINK 1.9
-hapmap="hapmap3_r2_b36_fwd.consensus.qc.poly"
-    # Download HapMap data from ftp://ftp.ncbi.nlm.nih.gov/hapmap/genotypes/latest_phaseIII_ncbi_b36/plink_format/
-    # and convert to bed/bim/fam format using --make-bed
+hapmap="hapmap3_r2_b36_fwd.consensus.qc.poly" 
 
 
 ### Convert Illumina Final Report to PLINK format 
