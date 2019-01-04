@@ -1,6 +1,6 @@
 # pptc-pdx-ethnicity-inference
 
-**This repository contains the methods that were used to infer the approximate ethnic backgrounds for 254 patient-derived xenograft (PDX) models from the Pediatric Preclinical Testing Consortium (PPTC) using SNP array genotyping data.**
+**This repository contains the methods that were used to infer the approximate ethnic backgrounds for 253 patient-derived xenograft (PDX) models from the Pediatric Preclinical Testing Consortium (PPTC) using SNP array genotyping data.**
 
 **Authors:** Laura Ritenour, Zalman Vaksman (2018)
 
@@ -30,3 +30,4 @@ Note that genotyping data derived from tumors are not ideal for inferring ethnic
 - PCA.plink.eigenval
 - PCA.plink.eigenvec
 - PCA.plink.eigenvec.var
+- inferred_ethnicities_40kSNPs.txt
