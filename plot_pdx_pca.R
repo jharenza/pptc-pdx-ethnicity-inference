@@ -9,7 +9,7 @@ mds$C1 <- mds$PC1
 mds$C2 <- mds$PC2
 mds$C3 <- mds$PC3
 
-clin <- read.table(paste(dir, "2018-12-13-pdx-clinical-final-for-paper.txt", sep=""),
+clin <- read.table(paste(dir, "2018-12-28-pdx-clinical-final-for-paper.txt", sep=""),
                     stringsAsFactors = F, head=T, sep="\t")
 
 # Subset results to models in PPTC
@@ -52,7 +52,7 @@ mds_hapmap4[mds_hapmap4$Ethnicity %in% c("CHD", "CHB", "JPT"), "Ethnicity"] <- "
 mds_hapmap4[mds_hapmap4$Ethnicity %in% c("GIH", "MEX"), "Ethnicity"] <- " HapMap: South Asian or Hispanic"
 
 # Read in standard histology color codes
-histcolors_data <- read.table(paste(dir, "2018-08-23-all-hist-colors_downloaded_2018-12-19", sep=""), sep='\t', stringsAsFactors = F, comment.char = "")
+histcolors_data <- read.table(paste(dir, "2018-08-23-all-hist-colors", sep=""), sep='\t', stringsAsFactors = F, comment.char = "")
 histcolors <- histcolors_data$V2
 names(histcolors) <- histcolors_data$V1
 
@@ -85,7 +85,7 @@ p <- ggplot(data=NULL, aes(x=C1, y=C2)) +
                                                   alpha = c(rep(alpha_hm, 9), rep(alpha_pdx, 27))))) +
   theme(legend.title=element_blank()) + xlab("Principal Component 1") + ylab("Principal Component 2")
 
-ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_254_detailed-populations.pdf", sep=""), width=10, height=6)
+ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_253_detailed-populations.pdf", sep=""), width=10, height=6)
 
 
 
@@ -112,7 +112,7 @@ p <- ggplot(data=NULL, aes(x=C1, y=C2)) +
                                                   alpha = c(rep(alpha_hm, 9), rep(alpha_pdx, 7))))) +
   theme(legend.title=element_blank()) + xlab("Principal Component 1") + ylab("Principal Component 2")
 
-ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_254_reported-ethnicities.pdf", sep=""), width=10, height=6)
+ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_253_reported-ethnicities.pdf", sep=""), width=10, height=6)
 
 
 
@@ -147,7 +147,7 @@ p <- ggplot(data=NULL, aes(x=C1, y=C2)) +
                                                   #alpha = c(rep(alpha_hm, 4), rep(alpha_pdx, 25))))) +
   theme(legend.title=element_blank()) + xlab("Principal Component 1") + ylab("Principal Component 2")
 
-ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_254_grouped-populations_boxes.pdf", sep=""), width=10, height=6)
+ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_253_grouped-populations_boxes.pdf", sep=""), width=10, height=6)
 
 
 

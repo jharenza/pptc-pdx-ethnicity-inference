@@ -1,0 +1,254 @@
+Model	Histology_detailed	Reported_Ethnicity	Inferred_Ethnicity	PC1	PC2	PC3
+COG-N-589x	Neuroblastoma	Unknown	African	-0.0337048	-0.000330034	-0.00888834
+COG-N-590x	Neuroblastoma	Unknown	European	0.01398	0.0269513	-0.00128715
+COG-N-603x	Neuroblastoma	Unknown	European	0.0179469	0.0305069	-0.000594732
+COG-N-618x	Neuroblastoma	Unknown	SouthAsianOrHispanic	0.0170298	0.0114195	-0.0566536
+COG-N-619x	Neuroblastoma	Unknown	SouthAsianOrHispanic	0.0170318	0.0113489	-0.0566079
+COG-N-620x	Neuroblastoma	Unknown	African	-0.0302571	0.0018633	-0.010215
+COG-N-623x	Neuroblastoma	Unknown	European	0.0179702	0.0305	-0.000805883
+COG-N-624x	Neuroblastoma	Unknown	European	0.0184668	0.0310081	0.00447694
+COG-N-625x	Neuroblastoma	Unknown	European	0.0177597	0.0313104	0.00345194
+COG-N-628x	Neuroblastoma	Unknown	EastAsian	0.0205661	-0.0468433	0.00484832
+ALL-102	BCP-ALL	Unknown	European	0.0169461	0.0293815	0.00541541
+ALL-105	BCP-ALL	Unknown	European	0.0165519	0.0293876	0.00521039
+ALL-106	Ph-likeALL	Unknown	SouthAsianOrHispanic	0.0176011	-0.0044805	0.00871431
+ALL-107	Ph-likeALL	Unknown	Mixed_or_Unknown	0.0102145	0.0182615	0.0065496
+ALL-108	Ph-likeALL	Unknown	European	0.0182326	0.02986	0.00335761
+ALL-11	BCP-ALL	Unknown	European	0.0175035	0.0287087	0.00949607
+ALL-115	BCP-ALL	Unknown	European	0.0169144	0.029134	0.0062025
+ALL-116	Ph-likeALL	Unknown	European	0.0168541	0.0297607	0.00431944
+ALL-117	Ph-likeALL	Unknown	European	0.0189509	0.0319847	0.00419585
+ALL-118	Ph-likeALL	Unknown	European	0.0172846	0.0309105	0.000578239
+ALL-121	T-ALL	Unknown	European	0.0180966	0.0298678	-0.00298912
+ALL-122	BCP-ALL	Unknown	SouthAsianOrHispanic	0.0145248	9.64271e-05	0.0163388
+ALL-123	BCP-ALL	Unknown	European	0.0182974	0.0298045	0.00782248
+ALL-16	T-ALL	Unknown	European	0.0182438	0.0304781	0.000431234
+ALL-26	BCP-ALL	Unknown	European	0.0172404	0.0306577	0.00482147
+ALL-28	BCP-ALL	Unknown	European	0.017888	0.0308275	0.00638247
+ALL-29	T-ALL	Unknown	European	0.0154001	0.0280059	0.00878048
+ALL-33	T-ALL	Unknown	European	0.0175074	0.0294002	0.00219052
+ALL-39	T-ALL	Unknown	Mixed_or_Unknown	0.00873924	-0.00190985	0.019249
+ALL-43	T-ALL	Unknown	European	0.0171331	0.0305237	0.00567844
+ALL-46	T-ALL	Unknown	European	0.0180854	0.029963	-0.00261836
+ALL-51	BCP-ALL	Unknown	European	0.0174874	0.0305572	0.00114325
+ALL-52	BCP-ALL	Unknown	European	0.0162019	0.0297285	0.0111961
+ALL-53	BCP-ALL	Unknown	European	0.0170907	0.0294245	0.00208214
+ALL-54	BCP-ALL	Unknown	Mixed_or_Unknown	0.0140535	-0.0246279	0.00849165
+ALL-55	Ph+-ALL	Unknown	European	0.0171682	0.0295497	0.00882171
+ALL-58	BCP-ALL	Unknown	European	0.0182981	0.0297658	0.00791214
+ALL-60	BCP-ALL	Unknown	European	0.0176906	0.0304733	0.00427885
+ALL-61	BCP-ALL	Unknown	European	0.017022	0.0302377	0.00494634
+ALL-63	BCP-ALL	Unknown	European	0.0180195	0.030153	0.00797156
+ALL-75	BCP-ALL	Unknown	European	0.0178565	0.0295106	0.00253622
+ALL-80	T-ALL	Unknown	European	0.0174715	0.0296615	-0.00139157
+ALL-81	T-ALL	Unknown	European	0.0174545	0.0295389	-0.00218657
+PAKYEP	BCP-ALL	Unknown	Mixed_or_Unknown	0.0136567	0.022977	-0.0108536
+ALL-87	BCP-ALL	Unknown	European	0.0171074	0.0298344	0.00261887
+ALL-90	T-ALL	Unknown	European	0.0170096	0.0300701	0.0101701
+ALL-94	BCP-ALL	Unknown	EastAsian	0.0216489	-0.0475649	0.0087736
+ALL-95	BCP-ALL	Unknown	European	0.0163312	0.0258194	0.0069721
+ALL-97	T-ALL	Unknown	Mixed_or_Unknown	0.0146252	0.022817	0.012644
+MLL-1	MLL-ALL	Unknown	Mixed_or_Unknown	0.00436309	0.0198628	-0.00561073
+ALL-02	BCP-ALL	Unknown	Mixed_or_Unknown	0.0171939	0.02202	0.0050438
+ALL-03	MLL-ALL	Unknown	European	0.0164173	0.0276135	0.0074508
+ALL-04	Ph+-ALL	Unknown	European	0.0161713	0.0300274	0.000573698
+ALL-07	BCP-ALL	Unknown	European	0.0169947	0.0292664	0.00672111
+ALL-08	T-ALL	Unknown	African	-0.0429698	-0.00400053	-0.0173847
+ALL-10	Ph-likeALL	Unknown	European	0.0175145	0.0297249	0.000183358
+ALL-19	BCP-ALL	Unknown	European	0.0181316	0.0293838	0.000129324
+ALL-25	BCP-ALL	Unknown	European	0.0170617	0.0301908	0.00510907
+ALL-27	T-ALL	Unknown	European	0.0176593	0.0293788	0.00562768
+ALL-30	T-ALL	Unknown	EastAsian	0.0215271	-0.0490989	0.00556225
+ALL-31	T-ALL	Unknown	European	0.0172845	0.0276788	-0.0085225
+ALL-32	T-ALL	Unknown	European	0.0170381	0.0300902	0.0103197
+ALL-42	T-ALL	Unknown	European	0.0175035	0.029168	0.00415213
+ALL-47	T-ALL	Unknown	European	0.0168917	0.0305212	0.00603075
+ALL-50	BCP-ALL	Unknown	European	0.0171325	0.0309875	0.00276691
+ALL-56	Ph+-ALL	Unknown	European	0.0183317	0.0295878	0.00138876
+ALL-57	BCP-ALL	Unknown	European	0.0179227	0.0293875	0.00269796
+ALL-59	BCP-ALL	Unknown	European	0.0177724	0.0280179	0.000150421
+ALL-82	BCP-ALL	Unknown	European	0.016236	0.029267	0.0138236
+ALL-83	BCP-ALL	Unknown	European	0.0169738	0.0298183	0.0136245
+ALL-84	BCP-ALL	Unknown	European	0.0180401	0.0295102	0.00159472
+ALL-85	T-ALL	Unknown	European	0.0173706	0.0302695	0.00384272
+MLL-86	MLL-ALL	Unknown	SouthAsianOrHispanic	0.0175546	0.0186488	0.00371409
+ALL-88	BCP-ALL	Unknown	European	0.0176699	0.0306093	0.00201043
+ALL-91	BCP-ALL	Unknown	European	0.017113	0.030048	0.00305864
+ALL-93	BCP-ALL	Unknown	European	0.0176959	0.0246482	0.000245929
+ASPS-KY	Other Sarcoma	Unknown	EastAsian	0.0208524	-0.0471151	0.00542825
+BT-27	PNET	Unknown	European	0.0170428	0.0299982	0.00295931
+BT-29	ATRT	European	European	0.0172407	0.029522	0.00399428
+CHLA-79	Neuroblastoma	Unknown	European	0.0179003	0.0307895	0.00329941
+CHLA-258	Ewing Sarcoma	Hispanic or Latino	SouthAsianOrHispanic	0.0175118	0.0139135	-0.0395391
+COG-N-415x	Neuroblastoma	Unknown	European	0.0180862	0.0296861	0.00239189
+COG-N-421x	Neuroblastoma	Unknown	European	0.0194471	0.0302659	0.00312041
+COG-N-424x	Neuroblastoma	Unknown	European	0.0175319	0.0307771	0.00363826
+COG-N-426x-Felix-PDX	Neuroblastoma	Unknown	European	0.0180152	0.030915	0.0039038
+COG-N-440x	Neuroblastoma	Unknown	European	0.0173659	0.0292889	0.00258307
+COG-N-452x	Neuroblastoma	Unknown	European	0.0171909	0.0306492	-0.00130252
+COG-N-453x	Neuroblastoma	Unknown	European	0.0173022	0.0305505	-0.00159684
+COG-N-471x	Neuroblastoma	Unknown	SouthAsianOrHispanic	0.0174615	-0.00540319	0.011097
+COG-N-480x	Neuroblastoma	Unknown	European	0.0179614	0.0303002	0.00383381
+COG-N-496x	Neuroblastoma	Unknown	European	0.0179508	0.031489	0.00213998
+COG-N-519x	Neuroblastoma	Unknown	European	0.017803	0.0310222	-0.000213229
+COG-N-549x	Neuroblastoma	Unknown	European	0.0173205	0.0317432	0.00416489
+COG-N-557x	Neuroblastoma	Unknown	Mixed_or_Unknown	-0.00452292	0.0172297	-0.00169221
+COG-N-560x	Neuroblastoma	Unknown	European	0.0181757	0.0282646	0.0007879
+COG-N-561x	Neuroblastoma	Unknown	European	0.0174605	0.029922	0.00279947
+COG-N-564x	Neuroblastoma	Unknown	European	0.0164975	0.0288598	0.0035674
+ES-1	Ewing Sarcoma	Unknown	European	0.0171437	0.02907	0.00200598
+ES-4	Ewing Sarcoma	Unknown	European	0.0165352	0.0257245	-0.00996469
+ES-6	Ewing Sarcoma	Unknown	European	0.0181952	0.029614	0.00407907
+ES-8	Ewing Sarcoma	Unknown	European	0.015476	0.0271626	0.00919426
+ETP-1	ETP-ALL	Unknown	European	0.0172675	0.0298627	0.00388329
+ETP-2	ETP-ALL	Unknown	European	0.0162251	0.0298522	0.0038015
+ETP-3	ETP-ALL	Unknown	African	-0.0362002	-0.00173898	-0.0222683
+ETP-4	ETP-ALL	Unknown	European	0.0175729	0.0298269	0.00127132
+ETP-5	ETP-ALL	Unknown	European	0.017412	0.029178	0.00421929
+ETP-6	ETP-ALL	Unknown	African	-0.0292321	0.00260189	-0.0106458
+EW-5	Ewing Sarcoma	European	European	0.0168209	0.0292015	0.00284834
+EW-8	Ewing Sarcoma	European	European	0.0194622	0.0320798	0.00717108
+NB-Fly-623m	Neuroblastoma	Unknown	European	0.0168981	0.0300661	0.00451569
+G401	Rhabdoid	European	European	0.0143634	0.0255336	0.0099392
+IBs-2373PNET	ETMR	Hispanic or Latino	SouthAsianOrHispanic	0.0193098	-0.00644156	-0.110995
+IBs-P1215DIPG	DIPG	Unknown	European	0.0144976	0.027526	-0.000504655
+IBs-W0128DIPG	DIPG	Unknown	European	0.0169114	0.0295437	0.00663293
+ICb-1078MB	Medulloblastoma	Non-Hispanic	European	0.0185469	0.0269692	-0.00453545
+IC-1499EPB	PNET	Hispanic or Latino	SouthAsianOrHispanic	0.0155427	0.011596	-0.0522682
+ICb-1595MB	Medulloblastoma	Hispanic or Latino	SouthAsianOrHispanic	0.014719	-0.00236403	-0.0919088
+IC-1621GBM	Glioblastoma	Non-Hispanic	SouthAsianOrHispanic	0.0136411	0.00180558	0.0171283
+IC-2264PNET	PNET	Unknown	SouthAsianOrHispanic	0.016847	0.00511034	-0.0803809
+IC-3635PXA	Astrocytoma	Unknown	European	0.0179703	0.0306577	0.00251916
+IC-3752GBM	Glioblastoma	Non-Hispanic	European	0.0182095	0.0331437	-0.0044848
+IC-6634GBM	Glioblastoma	Hispanic or Latino	European	0.016935	0.0323525	0.00164584
+IC-9320GCT	CNS Germinoma	Unknown	Mixed_or_Unknown	0.0230558	-0.0226996	-0.164655
+IC-9635EPN	Ependymoma	Non-Hispanic	African	-0.033114	0.00136354	-0.013551
+IC-9811EPN	Ependymoma	Hispanic or Latino	SouthAsianOrHispanic	0.0164982	0.000250397	-0.0872358
+IC-22909PNET-rIII	PNET	Hispanic or Latino	SouthAsianOrHispanic	0.0160312	0.0057967	-0.0805595
+ICb-10614EPN	Ependymoma	Non-Hispanic	European	0.0184042	0.0286117	0.0034966
+ICb-1140MB	Medulloblastoma	Hispanic or Latino	European	0.0174626	0.0247476	-0.00977538
+ICb-1197MB	Medulloblastoma	Non-Hispanic	European	0.0181774	0.0299372	0.00134282
+ICb-1218ATRT	ATRT	Non-Hispanic	European	0.0173794	0.029578	0.00512445
+ICb-1343ENB	ETMR	Unknown	SouthAsianOrHispanic	0.0141782	-0.00183941	-0.0902748
+ICb-1494MB	Medulloblastoma	Unknown	SouthAsianOrHispanic	0.0166529	0.00708622	-0.0694843
+ICB-1744MB	Medulloblastoma	Unknown	European	0.0176433	0.0283443	-0.00111176
+ICb-2002EPN	Ependymoma	Hispanic or Latino	SouthAsianOrHispanic	0.014237	0.017218	-0.0324216
+ICb-2164MB	Medulloblastoma	Unknown	European	0.0159708	0.0282078	0.00281312
+ICb-2555MB	Medulloblastoma	Hispanic or Latino	SouthAsianOrHispanic	0.019769	-0.0126396	-0.130624
+ICb-3130MB	Medulloblastoma	Non-Hispanic	European	0.017545	0.0305185	0.00497565
+ICb-3400MB	Medulloblastoma	Hispanic or Latino	SouthAsianOrHispanic	0.0170515	0.00865222	-0.0626229
+ICb-5108ATRT	ATRT	Unknown	African	-0.0325095	0.00151934	-0.0101826
+ICb-5323EPN	Ependymoma	Non-Hispanic	SouthAsianOrHispanic	0.0176002	0.000689144	0.00513952
+ICb-5610MB	Medulloblastoma	Non-Hispanic	European	0.0182162	0.0307708	0.00323149
+ICb-6753ATRT	ATRT	Non-Hispanic	European	0.0166189	0.0264321	-0.00318528
+ICb-8008MB	Medulloblastoma	Hispanic or Latino	SouthAsianOrHispanic	0.016901	0.0161988	-0.0330532
+ICb-9508MB	Medulloblastoma	Hispanic or Latino	Mixed_or_Unknown	-0.0039832	0.0176056	-0.0129933
+ICb-9850PNET	PNET	Hispanic or Latino	SouthAsianOrHispanic	0.0161669	0.00573357	-0.0808155
+ICb-10593ATRT	ATRT	Non-Hispanic	African	-0.0278272	0.00354307	-0.0174687
+ICb-J1017MB	Medulloblastoma	Unknown	European	0.0154052	0.0247494	0.0150944
+ICb-L1115ATRT	ATRT	Unknown	European	0.017129	0.0288494	0.00540538
+IRS-68	Embryonal Rhabdomyosarcoma	Unknown	European	0.0169974	0.0296123	0.00238269
+IRS-56	Embryonal Rhabdomyosarcoma	Unknown	African	-0.0334355	0.000769449	-0.0108124
+KT-6	Wilms	Unknown	African	-0.0307196	0.00217178	-0.0099176
+KT-8	Wilms	Unknown	European	0.0172501	0.0303791	0.00333548
+KT-9	Wilms	Unknown	African	-0.0378327	-0.0014727	-0.0100977
+KT-10	Wilms	African American	African	-0.0349213	-0.00104172	-0.0111643
+KT-11	Wilms	African American	African	-0.0369414	-0.000770161	-0.0168842
+KT-12	ATRT	European	European	0.0166342	0.0286316	0.00218866
+KT-13	Wilms	European	European	0.0174167	0.0312808	0.00373322
+KT-14	Rhabdoid	Unknown	European	0.0181992	0.0305047	0.00459714
+KT-18	Wilms	Unknown	European	0.0184309	0.0306138	0.00211531
+MLL-2	MLL-ALL	Unknown	European	0.0177972	0.0286757	0.00656292
+MLL-3	MLL-ALL	Unknown	European	0.0168986	0.0294254	0.00762629
+MLL-5	MLL-ALL	Unknown	European	0.0169708	0.0285438	0.00122779
+MLL-6	MLL-ALL	Unknown	European	0.017302	0.031196	0.00417989
+MLL-7	MLL-ALL	Unknown	Mixed_or_Unknown	0.0080949	0.00737607	-0.0528383
+MLL-8	MLL-ALL	Unknown	European	0.0142066	0.0265935	-0.00138717
+MLL-14	MLL-ALL	Unknown	European	0.017559	0.0301373	0.00519322
+NB-1382	Neuroblastoma	Unknown	European	0.0171309	0.0288754	0.00673552
+NB-1643	Neuroblastoma	Unknown	European	0.0182681	0.0289204	-0.00208723
+NB-1691	Neuroblastoma	Unknown	European	0.0181234	0.0300082	0.00072947
+NB-1771	Neuroblastoma	Unknown	European	0.0175752	0.030053	0.00588478
+NB-EBc1	Neuroblastoma	Unknown	European	0.018797	0.0309499	0.00380705
+NB-SD	Neuroblastoma	Unknown	African	-0.0381203	-0.00188467	-0.0122044
+NCH-CA-1	Small Cell Carcinoma	Unknown	European	0.0166268	0.0307079	0.00088734
+NCH-CA-2	Small Cell Carcinoma	Unknown	European	0.0166366	0.0308357	0.000702181
+NCH-CA-3	Colon Carcinoma	Unknown	African	-0.0384189	-4.68925e-05	0.00546635
+NCH-CCS-1	Other Sarcoma	European	European	0.0177981	0.0307547	0.00557412
+NCH-EWS-1	Ewing Sarcoma	European	European	0.01779	0.0302156	0.00299588
+NCH-HEP1	Other Renal	Unknown	European	0.0174339	0.0293297	0.0037029
+NCH-KT-1	Other Renal	Unknown	African	-0.0196594	0.00822123	-0.00765712
+NCH-MB-1	Medulloblastoma	Unknown	European	0.0165867	0.0296548	-0.00101678
+NCH-MN-1	High-grade glioma	Unknown	Mixed_or_Unknown	-0.00527391	0.0172311	-0.00448454
+NCH-NB-1	Neuroblastoma	Unknown	European	0.0174307	0.0294591	0.00375112
+NCH-OS-1	Osteosarcoma	Unknown	European	0.0206933	0.0306209	0.00326762
+NCH-PXA-1	Astrocytoma	Unknown	African	-0.0318989	0.00276603	-0.0079259
+NCH-RBD-1	Rhabdoid	Unknown	European	0.0182396	0.0296851	0.00547858
+NCH-RBD-2	Rhabdoid	Unknown	European	0.0168278	0.0303726	0.00244698
+NCH-RBD-4	ATRT	Unknown	EastAsian	0.0205336	-0.0442022	0.00805343
+NCH-ERMS-1-NCH-RMS-1	Embryonal Rhabdomyosarcoma	Unknown	European	0.0168253	0.0297212	0.00507474
+NCH-ARMS-2-NCH-S13-7484	Alveolar Rhabdomyosarcoma	Unknown	European	0.0172283	0.029094	0.00422251
+NCH-WT-4	Wilms	Unknown	European	0.0183899	0.0303973	0.00376505
+NCH-WT-5	Wilms	Unknown	European	0.01764	0.0304888	0.00704394
+NCH-WT-6-S13-1506	Wilms	Unknown	European	0.0174565	0.0296819	0.00904143
+NCH-WT-7	Wilms	Unknown	European	0.0182876	0.0303189	0.00398843
+NCH-WT-8-S13-3700	Wilms	Unknown	European	0.0181014	0.0298672	0.000625365
+NCI-ASPS	Other Sarcoma	Unknown	European	0.0151291	0.0298991	0.00412197
+OS-1	Osteosarcoma	African American	African	-0.0360787	-0.000926466	-0.0144618
+OS-2	Osteosarcoma	European	European	0.0180638	0.031612	0.00520922
+OS-9	Osteosarcoma	European	European	0.0173905	0.0306974	0.00435964
+OS-17	Osteosarcoma	European	European	0.0168664	0.0309756	-0.00248238
+OS-29	Osteosarcoma	European	European	0.0172614	0.0305696	0.00449971
+OS-31	Osteosarcoma	African American	African	-0.0341542	0.00127955	-0.0118638
+OS-32	Osteosarcoma	Unknown	European	0.0169647	0.0304808	0.00873344
+OS-33	Osteosarcoma	European	European	0.0178206	0.0307043	0.00593109
+OS-34	Osteosarcoma	Unknown	European	0.0196221	0.0316478	0.00657959
+OS-34-SJ	Osteosarcoma	Unknown	European	0.0191508	0.0311499	0.0072405
+OS-36-SJ	Osteosarcoma	European	European	0.0173161	0.0306306	0.00923458
+OS-41	Osteosarcoma	Unknown	European	0.0187056	0.03051	0.00344591
+OS-42	Osteosarcoma	European	European	0.0174224	0.0301884	-6.31819e-05
+OS-43-TPMX	Osteosarcoma	African American	European	0.0165864	0.0259585	0.0144586
+OS-44	Osteosarcoma	Unknown	European	0.0178946	0.0316481	0.00690008
+OS-44-KPDX-x	Osteosarcoma	Unknown	European	0.0180703	0.0308448	0.00657513
+OS-45-TSX-pr1	Osteosarcoma	Unknown	European	0.0188003	0.029625	-0.000690746
+OS-46-AOX	Osteosarcoma	Unknown	European	0.0179255	0.0303667	0.00415483
+OS-46	Osteosarcoma	Unknown	African	-0.035014	0.000836071	-0.0121919
+OS-47-SJ	Osteosarcoma	European	African	-0.0357647	-0.000284866	-0.0177841
+OS-48	Osteosarcoma	Unknown	European	0.0180991	0.0298242	0.0017038
+OS-49-SJ	Osteosarcoma	African American	African	-0.0392918	-0.00147714	-0.0160982
+OS-49-STTX-sc	Osteosarcoma	Unknown	European	0.0183799	0.0314972	0.0028453
+OS-50-SJ	Osteosarcoma	European	European	0.0173216	0.0296062	0.00494635
+OS-51-CHLX	Osteosarcoma	European	European	0.0183063	0.0310851	0.00373312
+OS-52-SJ	Osteosarcoma	European	European	0.0176815	0.0311028	0.00350926
+OS-54-OHS-x	Osteosarcoma	Unknown	European	0.019592	0.0304598	0.00100265
+OS-54-SJ	Osteosarcoma	Mixed	EastAsian	0.0215518	-0.046483	0.0108799
+OS-55	Osteosarcoma	Other	Mixed_or_Unknown	-0.00369266	-0.00252123	-0.0112668
+OS-55-SBX	Osteosarcoma	Other	European	0.018825	0.0324826	0.00522878
+OS-56	Osteosarcoma	Unknown	African	-0.037988	-0.00109726	-0.0123457
+OS-56-TTX	Osteosarcoma	African American	European	0.0177409	0.0310493	0.00287116
+OS-60	Osteosarcoma	Unknown	European	0.0172819	0.0303908	0.00331111
+Rh-12	Embryonal Rhabdomyosarcoma	Unknown	European	0.0172841	0.0298562	0.00262179
+Rh-70	Embryonal Rhabdomyosarcoma	African American	European	0.0175096	0.0313509	0.000497007
+Rh-10	Alveolar Rhabdomyosarcoma	European	European	0.0175995	0.0285932	0.00385959
+Rh-30	Alveolar Rhabdomyosarcoma	European	European	0.015675	0.0291597	0.00883391
+Rh-30R	Alveolar Rhabdomyosarcoma	European	European	0.0160348	0.0294511	0.00843621
+Rh-36	Embryonal Rhabdomyosarcoma	European	European	0.0189187	0.0323489	0.000598418
+Rh-41	Alveolar Rhabdomyosarcoma	European	European	0.0187734	0.0320856	0.00304941
+Rh-65	Alveolar Rhabdomyosarcoma	European	European	0.0178777	0.0300788	0.00598753
+SK-NEP-1	Ewing Sarcoma	European	European	0.017301	0.0310846	0.0053807
+TC-71	Ewing Sarcoma	Unknown	European	0.0176211	0.0301495	0.00284747
+PAKHZT	Ph-likeALL	Unknown	SouthAsianOrHispanic	0.0158311	-0.0105192	-0.117208
+PAKRSL	Ph-likeALL	Unknown	SouthAsianOrHispanic	0.0143167	0.00801629	-0.0531853
+PAKSWW	Ph-likeALL	Unknown	SouthAsianOrHispanic	0.0172161	0.00980822	-0.0575898
+PAKVKK	Ph-likeALL	Unknown	SouthAsianOrHispanic	0.0159452	0.010549	-0.0552213
+PALJDL	Ph-likeALL	Unknown	European	0.0175464	0.0314802	0.000550343
+PALKTY	Ph-likeALL	Unknown	SouthAsianOrHispanic	0.0171139	-0.0106745	-0.124544
+PALLSD	Ph-likeALL	Unknown	European	0.0162968	0.0293256	0.00519355
+PALNTB	BCP-ALL	Unknown	European	0.0161549	0.0279638	0.0110059
+PALTWS	BCP-ALL	Unknown	SouthAsianOrHispanic	0.0136962	0.00726197	-0.0663866
+PAMDRM	Ph-likeALL	Unknown	Mixed_or_Unknown	0.0200733	-0.0335983	0.012067
+IC-1128GBM	Glioblastoma	Hispanic or Latino	European	0.018002	0.0301981	0.00277167
+IC-2305GBM	Glioblastoma	Hispanic or Latino	SouthAsianOrHispanic	0.0184059	0.00599011	-0.082166
+ICb-984MB	Medulloblastoma	Unknown	European	0.0190608	0.0306771	0.00267279
+ICb-1487MB	Medulloblastoma	Non-Hispanic	European	0.0175956	0.0297929	-0.000233142
+ICb-1572MB	Medulloblastoma	Non-Hispanic	European	0.0181004	0.0299652	-0.000339324
