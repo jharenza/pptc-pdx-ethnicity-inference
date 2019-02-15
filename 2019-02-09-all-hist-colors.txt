@@ -1,0 +1,29 @@
+Fusion+ RMS	#E8C51D
+Astrocytoma	#ED2891
+ATRT	#000000
+BCP-ALL	#97D1A9
+CNS germinoma	#00A99D
+CNS EFT-CIC	#7E1918
+Colon Carcinoma	#F89420
+DIPG	#D3C3E0
+Fusion- RMS	#00AEEF
+Ependymoblastoma	#D97D25
+Ependymoma	#C1A72F
+ETP-ALL	#754C29
+ETMR	#CACCDB
+Ewing Sarcoma	#542C88
+Glioblastoma	#B2509E
+ASPS	#DAF1FC
+Medulloblastoma	#D49DC7
+MLL-ALL	#009444
+Neuroblastoma	#EA7075
+Osteosarcoma	#6E7BA2
+Hepatoblastoma	#104A7F
+Clear Cell Sarcoma	#F6B667
+Ph+-ALL	#3953A4
+Ph-likeALL	#BE1E2D
+CNS embryonal NOS	#F9ED32
+Extracranial Rhabdoid	#9EDDF9
+Small Cell Carcinoma	#D3C3E0
+T-ALL	#CEAC8F
+Wilms	#007EB5

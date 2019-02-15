@@ -9,7 +9,7 @@ mds$C1 <- mds$PC1
 mds$C2 <- mds$PC2
 mds$C3 <- mds$PC3
 
-clin <- read.table(paste(dir, "2018-12-28-pdx-clinical-final-for-paper.txt", sep=""),
+clin <- read.table(paste(dir, "2019-02-09-pdx-clinical-final-for-paper.txt", sep=""),
                     stringsAsFactors = F, head=T, sep="\t")
 
 # Subset results to models in PPTC
@@ -21,8 +21,8 @@ mds <- subset(mds, In_PPTC == "yes" | In_PPTC == "HapMap")
 # Add histology
 mds$Histology_detailed <- clin[mds$IID, "Histology.Detailed"]
 mds[grep("^NA", mds$IID), "Histology_detailed"] <- "HapMap" 
-# Capitalize "germinoma"
-mds[mds$Histology_detailed == "CNS germinoma", "Histology_detailed"] <- "CNS Germinoma"
+
+
 
 # Add model
 mds$Model <- clin[mds$IID, "Model"]
@@ -52,11 +52,9 @@ mds_hapmap4[mds_hapmap4$Ethnicity %in% c("CHD", "CHB", "JPT"), "Ethnicity"] <- "
 mds_hapmap4[mds_hapmap4$Ethnicity %in% c("GIH", "MEX"), "Ethnicity"] <- " HapMap: South Asian or Hispanic"
 
 # Read in standard histology color codes
-histcolors_data <- read.table(paste(dir, "2018-08-23-all-hist-colors", sep=""), sep='\t', stringsAsFactors = F, comment.char = "")
+histcolors_data <- read.table(paste(dir, "2019-02-09-all-hist-colors.txt", sep=""), sep='\t', stringsAsFactors = F, comment.char = "")
 histcolors <- histcolors_data$V2
 names(histcolors) <- histcolors_data$V1
-
-
 
 ### Plot all HapMap populations and all PDX histologies
 
@@ -80,19 +78,20 @@ p <- ggplot(data=NULL, aes(x=C1, y=C2)) +
   geom_point(data=mds_pdx, aes(color=Histology_detailed), shape=shape_pdx, size=size_pdx, alpha=alpha_pdx) +
   scale_color_manual(values=colors_combined)  +
   theme_classic() +
-  guides(color = guide_legend(override.aes = list(shape = c(rep(shape_hm, 9), rep(shape_pdx, 27)),
-                                                  size = c(rep(size_hm, 9), rep(size_pdx, 27)),
-                                                  alpha = c(rep(alpha_hm, 9), rep(alpha_pdx, 27))))) +
+  guides(color = guide_legend(override.aes = list(shape = c(rep(shape_hm, 9), rep(shape_pdx, 29)),
+                                                  size = c(rep(size_hm, 9), rep(size_pdx, 29)),
+                                                  alpha = c(rep(alpha_hm, 9), rep(alpha_pdx, 29))))) +
   theme(legend.title=element_blank()) + xlab("Principal Component 1") + ylab("Principal Component 2")
 
-ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_253_detailed-populations.pdf", sep=""), width=10, height=6)
-
-
+ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_252_detailed-populations.pdf", sep=""), width=10, height=6)
 
 ### Plot all HapMap populations and reported PDX ethnicities
 
 reportedcolors <- c("red", "orange", "yellow", "green", "blue", "purple", "gray60")
 names(reportedcolors) <- c("African American", "European", "Hispanic or Latino", "Mixed", "Non-Hispanic", "Other", "Unknown")
+# ethcolors_9 <- c("red4", "orangered", "goldenrod1", "chartreuse2", "green4", "dodgerblue", "cyan", "darkblue", "purple")
+# names(ethcolors_9) <- c(" HapMap: ASW", " HapMap: CEU", " HapMap: CHD", " HapMap: GIH", " HapMap: LWK", " HapMap: MEX",
+#                         " HapMap: MKK", " HapMap: TSI", " HapMap: YRI")
 colors_combined <- c(reportedcolors, ethcolors_9)
 
 shape_hm <- 2
@@ -112,8 +111,7 @@ p <- ggplot(data=NULL, aes(x=C1, y=C2)) +
                                                   alpha = c(rep(alpha_hm, 9), rep(alpha_pdx, 7))))) +
   theme(legend.title=element_blank()) + xlab("Principal Component 1") + ylab("Principal Component 2")
 
-ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_253_reported-ethnicities.pdf", sep=""), width=10, height=6)
-
+ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_252_reported-ethnicities.pdf", sep=""), width=10, height=6)
 
 
 ### Plot HapMap grouped into 4 general populations (with boxes) and all PDX histologies
@@ -141,13 +139,13 @@ p <- ggplot(data=NULL, aes(x=C1, y=C2)) +
   geom_polygon(ethnicity_coords, mapping=aes(group=Ethnicity), fill=NA, linetype=5, size=0.3,
                color=ethnicity_coords$BoxColor) +
   theme_classic() +
-  guides(color = guide_legend(override.aes = list(shape = c(rep(shape_hm, 4), rep(shape_pdx, 27)),
-                                                  size = c(rep(size_hm, 4), rep(size_pdx, 27)),
+  guides(color = guide_legend(override.aes = list(shape = c(rep(shape_hm, 4), rep(shape_pdx, 29)),
+                                                  size = c(rep(size_hm, 4), rep(size_pdx, 29)),
                                                   alpha = 1))) +
                                                   #alpha = c(rep(alpha_hm, 4), rep(alpha_pdx, 25))))) +
   theme(legend.title=element_blank()) + xlab("Principal Component 1") + ylab("Principal Component 2")
 
-ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_253_grouped-populations_boxes.pdf", sep=""), width=10, height=6)
+ggsave(p, file=paste(dir, "plots/PDX_pca_40kSNPs_252_grouped-populations_boxes.pdf", sep=""), width=10, height=6)
 
 
 
@@ -169,6 +167,7 @@ mds_pdx <- annotate_ethnicity(ethnicity_coords, mds_pdx, "African")
 mds_pdx <- annotate_ethnicity(ethnicity_coords, mds_pdx, "EastAsian")
 mds_pdx <- annotate_ethnicity(ethnicity_coords, mds_pdx, "SouthAsianOrHispanic")
 
+table(mds_pdx$Inferred_Ethnicity)
 table(mds_pdx$Inferred_Ethnicity, mds_pdx$Reported_Ethnicity)
 
 mds_pdx_simple <- mds_pdx[,c("Model", "Histology_detailed", "Reported_Ethnicity", "Inferred_Ethnicity", "PC1", "PC2", "PC3")]
@@ -177,6 +176,5 @@ write.table(mds_pdx_simple, "inferred_ethnicities_40kSNPs.txt", quote=F, row.nam
 
 
 ### Plot in 3D
-
 library(plotly)
 plot_ly(mds_hapmap9, x=~C1, y=~C2, z=~C3, color=~Ethnicity)
