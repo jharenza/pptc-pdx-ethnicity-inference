@@ -2,7 +2,7 @@
 
 **This repository contains the methods that were used to infer the approximate ethnic backgrounds for 252 patient-derived xenograft (PDX) models from the Pediatric Preclinical Testing Consortium (PPTC) using SNP array genotyping data.**
 
-**Authors:** Laura Ritenour, Zalman Vaksman, Jo Lynne Rokita (2018)
+**Authors:** Laura Egolf, Zalman Vaksman, Jo Lynne Rokita (2018)
 
 Note that genotyping data derived from tumors are not ideal for inferring ethnicity, so these methods and results are meant to serve only as an approximation.
 
