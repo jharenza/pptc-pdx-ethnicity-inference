@@ -19,7 +19,7 @@ Note that genotyping data derived from tumors are not ideal for inferring ethnic
 - *snps_to_exclude.txt:* List of 414 SNPs with problematic allele coding that caused errors in PLINK
 - *ethnicity_coordinates_40kSNPs.txt:* Coordinates used for assigning samples to general ethnicity groups
 - *2019-02-09-all-hist-colors.txt:* Hexadecimal color codes used for plotting samples according to tumor histotype
-- *pptc-pdx-clinical-web.txt:* Clinical annotation for PDX samples
+- *2019-07-25-clin.txt:* Clinical annotation for PDX samples
 
 ## Software used:
 - R version 3.4.3
