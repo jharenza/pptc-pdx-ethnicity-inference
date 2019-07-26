@@ -9,7 +9,7 @@ mds$C1 <- mds$PC1
 mds$C2 <- mds$PC2
 mds$C3 <- mds$PC3
 
-clin <- read.table(paste(dir, "2019-02-09-pdx-clinical-final-for-paper.txt", sep=""),
+clin <- read.table(paste(dir, "2019-07-25-clin.txt", sep=""),
                     stringsAsFactors = F, head=T, sep="\t")
 
 # Subset results to models in PPTC
@@ -35,7 +35,7 @@ mds$Ethnicity <- hapmap_matchups[mds$IID,]$V7
 mds[grep("^PPTC|COG", mds$IID), "Ethnicity"] <- "PDX"
 
 # Add reported ethnicity for PDXs
-mds$"Reported_Ethnicity" <- clin[mds$IID, "Ethnicity"]
+mds$"Reported_Ethnicity" <- clin[mds$IID, "Reported_Ethnicity"]
 mds[grep("^NA", mds$IID), "Reported_Ethnicity"] <- "HapMap" 
 
 # Subset to 9 ethnicities (include all African populations, but exclude the highly overlapping East Asian populations)
